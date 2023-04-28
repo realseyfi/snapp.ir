@@ -1,0 +1,693 @@
+@font-face {
+	font-family: "IRANSansblack";
+	src: url('fonts//webfontss/woff/IRANSansX-Black.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansbold";
+	src: url('fonts/webfontss/woff/IRANSansX-Bold.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSanslight";
+	src: url('fonts/webfontss/woff/IRANSansX-Light.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansDemibold";
+	src: url('fonts/webfontss/woff/IRANSansX-DemiBold.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansExtrabold";
+	src: url('fonts/webfontss/woff/IRANSansX-ExtraBold.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansMedium";
+	src: url('fonts/webfontss/woff/IRANSansX-Medium.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSanslight";
+	src: url('fonts/webfontss/woff/IRANSansX-Light.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansultralight";
+	src: url('fonts/webfontss/woff/IRANSansX-UltraLight.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansregular";
+	src: url('fonts/webfontss/woff/IRANSansX-Regular.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansThin";
+	src: url('fonts/webfontss/woff/IRANSansX-Thin.woff') format('woff'),
+		url('fonts/webfontss/woff2/IRANSansX-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanumblack";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Black.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanumbold";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Bold.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanumlight";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Light.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanumextrabold";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-ExtraBold.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanumthin";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Thin.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanumdemibold";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-DemiBold.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanummedium";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Medium.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanumregular";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-Regular.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: "IRANSansfanumultralight";
+	src: url('fonts/fanumwebfonts/Woff/IRANSansXFaNum-UltraLight.woff') format('woff'),
+		url('fonts/fanumwebfonts/Woff2/IRANSansXFaNum-UltraLight.woff2') format('woff2');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	direction: rtl;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* استایل دهی بخش هدر */
+.header {
+	width: 100%;
+	height: 75px;
+	position: sticky;
+	top: 0;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	z-index: 100;
+}
+
+header {
+	width: 1200px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-right: -60px;
+}
+
+header ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+}
+
+header ul li {
+	padding: 0 15px;
+}
+
+header ul li:nth-child(1) {
+	padding-right: 40px;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: #666;
+	font-family: "IRANSansregular";
+	font-size: 14px;
+}
+
+.container .bottom__header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 450px;
+}
+
+.container .bottom__header div {
+	width: 50%;
+	height: 100%;
+}
+
+.container .bottom__header .main__left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container .bottom__header .main__left img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: scaleX(-1);
+}
+
+.container .bottom__header .main__right {
+	background-color: #21aa58;
+	color: #fff;
+}
+
+.container .bottom__header .main__right h1 {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	font-family: "IRANSansregular";
+	line-height: 65px;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: right;
+	margin-left: 40px;
+	margin-top: 20px;
+	padding-right: 113px;
+}
+
+.container .bottom__header .main__right p {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	font-family: "IRANSanslight";
+	padding-right: 113px;
+	line-height: 35px;
+	margin: 20px 0 15px 20px;
+	font-size: 21px;
+	text-align: right;
+}
+
+.container .bottom__header .main__right .send__phone {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	width: 100%;
+	margin-top: 20px;
+	height: auto;
+}
+
+.container .bottom__header .main__right .send__phone a {
+	text-decoration: none;
+	color: #21aa58;
+	background-color: #fff;
+	padding: 8px 25px;
+	border-radius: 8px;
+	font-family: "IRANSansmedium";
+	font-size: 15px;
+}
+
+.container .bottom__header .main__right .send__phone input {
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: "IRANSansfanumregular";
+	color: #eee;
+	padding: 8px 25px;
+	font-size: 17px;
+	border-bottom: 1px solid #eee;
+	margin-left: 15px;
+}
+
+.container .bottom__header .main__right .send__phone input::placeholder {
+	color: #eee;
+}
+
+
+.container .bottom__header .main__right .application__snapp {
+	text-decoration: none;
+	color: #eee;
+	border: 2px solid #eee;
+	padding: 9px 30px;
+	border-radius: 8px;
+	font-family: "IRANSansfanumregular";
+	display: inline-block;
+	margin: 40px 117px;
+	transition: 0.5s;
+}
+
+.container .bottom__header .main__right .application__snapp:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container .market__img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1200px;
+	margin: 40px auto;
+}
+
+.container .market__img ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.container .market__img ul li {
+	width: 170px;
+	height: 50px;
+	margin: 20px 15px;
+}
+
+.container .market__img ul li a {
+	width: 100%;
+	height: 100%;
+}
+
+.container .market__img ul li a img {
+	width: 100%;
+	height: 100%;
+}
+
+.container .service {
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	margin: 50px 0;
+}
+
+.container .service .main__service {
+	width: 980px;
+	height: auto;
+	margin: auto;
+}
+
+.container .service .main__service h1 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: "IRANSansregular";
+	font-size: 36px;
+	color: rgb(64, 64, 64);
+	padding-top: 30px;
+}
+
+.container .service .main__service ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+.container .service .main__service ul li {
+	width: calc(33.3333333% - 50px);
+	margin: 15px auto;
+	height: 80px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.container .service .main__service ul li a {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding-right: 10px;
+	height: 100%;
+}
+
+.container .service .main__service ul li a img {
+	width: 65px;
+	height: 65px;
+}
+
+.container .service .main__service ul li a div {
+	margin-right: 9px;
+}
+
+.container .service .main__service ul li a div h4 {
+	color: rgb(64, 64, 64);
+	font-size: 16px;
+	font-family: "IRANSanslight";
+	margin-bottom: 5px;
+}
+
+.container .service .main__service ul li a div p {
+	font-family: "IRANSansfanumlight";
+	color: #888;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 300;
+}
+
+.container .banner_food {
+	width: 950px;
+	height: 300px;
+	margin: 40px auto;
+}
+
+.container .banner_food img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.container .s_snapp {
+	width: 100%;
+	height: 430px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 25px;
+}
+
+.container .s_snapp .s_snapp_right {
+	width: 50%;
+	height: 100%;
+}
+
+.container .s_snapp .s_snapp_right img {
+	width: 100%;
+	height: 100%;
+}
+
+.container .s_snapp .s_snapp_left {
+	width: 50%;
+	height: 100%;
+	padding: 50px;
+	padding-left: 130px;
+}
+
+.container .s_snapp .s_snapp_left h2 {
+	font-size: 24px;
+	color: #464646;
+	font-family: "IRANSansregular";
+	padding-bottom: 15px;
+}
+
+.container .s_snapp .s_snapp_left p {
+	font-size: 15px;
+	color: #363636;
+	font-family: "IRANSanslight";
+	line-height: 30px;
+}
+
+.container .bottom_card {
+	width: 950px;
+	height: 320px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	top: -50px;
+}
+
+.container .bottom_card .s_one {
+	width: calc(33.3333333% - 50px);
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container .bottom_card .s_one div {
+	display: flex;
+	justify-content: center;
+	width: 270px;
+	height: 200px;
+	background-color: #eee;
+	border-radius: 10px; 
+}
+
+.container .bottom_card .s_one div img {
+	object-fit: cover;
+}
+
+.container .bottom_card .s_one h3 {
+	font-family: "IRANSanslight";
+	width: 100%;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-bottom: 12px;
+	color: #4a4a4a;
+}
+.container .bottom_card .s_one p {
+	font-family: "IRANSanslight";
+	width: 100%;
+	font-size: 15px;
+	color: #555;
+}
+
+.slider { 
+position: relative; 
+width: 950px;
+height: 300px;
+margin: 40px auto;
+} 
+
+.slider-container { 
+position: absolute; 
+width: 100%; 
+height: 100%; 
+display: flex; 
+overflow: hidden; 
+transition: transform 0.5s ease-in-out;
+} 
+
+.slider-container img { 
+width: 100%; 
+height: 100%; 
+object-fit: cover;
+border-radius: 10px;
+cursor: pointer;
+} 
+
+.dots-container { 
+position: absolute; 
+bottom: 20px; 
+width: 100%; 
+display: flex; 
+justify-content: center; 
+align-items: center;
+} 
+
+.dot { 
+width: 10px; 
+height: 10px; 
+border-radius: 50%; 
+background-color: #ccc; 
+margin: 0 10px; 
+cursor: pointer; 
+} 
+
+.dot.active { 
+background-color: #333; 
+} 
+
+
+.container section {
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	margin-top: 20px;
+}
+
+.container section div {
+	width: 1100px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.container section div h1 {
+	font-size: 35px;
+	font-family: "IRANSanslight";
+	color: #4b4b4b;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+
+.container section div p {
+	font-size: 20px;
+	font-family: "IRANSanslight";
+	color: #666;
+}
+
+.container section div .btn {
+	color: #fff;
+	font-family: "IRANSanslight";
+	font-size: 15px;
+	background-color: #21aa58;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin: 20px 0;
+	display: inline-block;
+}
+
+video {
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.box_f {
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	padding-top: 20px;
+	flex-wrap: wrap;
+	padding-bottom: 20px; 
+}
+
+.box {
+	width: 1100px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.box ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: -10px;
+}
+
+.box ul li {
+	width: 48%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 20px;
+	height: 200px;
+}
+.box ul li:nth-child(1) {
+	margin-bottom: 10px;
+}
+.box ul li:nth-child(2) {
+	margin-bottom: 10px;
+}
+.box ul li img {
+	width: 130px;
+	padding-left: 10px;
+}
+
+.box ul li h2 {
+	font-family: "IRANSanslight";
+	font-size: 18px;
+	padding-top: 15px;
+	color: #262626;
+}
+
+.box ul li p {
+	font-family: "IRANSanslight";
+	padding: 15px 0 15px 15px;
+	font-size: 15px;
+	color: #4a4a4a;
+}
+
+.footer {
+	width: 100%;
+	height: 115px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	margin: auto;
+}
+
+footer {
+	width: 1200px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+footer ul {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+footer ul li {
+padding: 0 15px;
+}
+
+footer ul li:nth-child(1){
+	padding-right: 0;
+}
+
+footer ul li a {
+	font-family: "IRANSanslight";
+	color: #4a4a4a;
+}
+
+.social {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.social li {
+color: #4a4a4a;
+font-size: 25px;
+}
+
+header span{
+	display: none !important;
+}
